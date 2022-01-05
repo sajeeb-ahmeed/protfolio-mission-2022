@@ -60,6 +60,7 @@ li {
 
 .section_wrapper {
     width: 50%;
+    margin-left: 4rem;
 }
 
 .text-center {
@@ -97,7 +98,13 @@ li {
     font-size: 6rem;
     font-weight: 700;
     line-height: 7rem;
-    border-left: .4rem solid #e05024e5;
-    margin-left: 2rem;
+    border-left: 1rem solid #e05024e5;
+    letter-spacing: .1rem;
 
+}
+
+.focoused-on-peraghrap {
+    padding-top: 2.5rem;
+    text-align: justify;
+    line-height: 2.2rem;
 }
