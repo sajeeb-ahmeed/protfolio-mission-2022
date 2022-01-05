@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;1,400&family=Lato:wght@400;700;900&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Yeseva+One&display=swap');
 
 body {
 
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Yeseva One', cursive;
 
 }
 
-/* ======== */
+/* ==== BoILer CSS ==== */
 html {
     font-size: 62.5%;
 }
@@ -24,23 +28,31 @@ h1 {
 
 h2 {
     font-size: 3.3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h4 {
     font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
     font-size: 1.6rem;
+    font-family: 'Yeseva One', cursive;
+
 }
 
 a {
     text-decoration: none;
     font-size: 1.6rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 li {
@@ -48,14 +60,18 @@ li {
 }
 
 .container_wrapper {
-    width: 100vw;
-    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .container {
     width: 100%;
+    display: flex;
     height: auto;
+    padding: 1rem;
+    margin-top: 7rem;
+    padding: 5rem;
 }
 
 .section_wrapper {
@@ -71,16 +87,8 @@ li {
     font-weight: 700;
 }
 
-.float_right {
-    float: right;
-}
-
-.float_left {
-    float: left;
-}
-
 .color1 {
-    color: #e05024e5;
+    color: #FFAD5A;
 }
 
 .color2 {
@@ -88,22 +96,110 @@ li {
 }
 
 .color3 {
-    color: #00c3ff;
+    color: #00252e;
 }
 
-/* ====== */
+.shawos-3 {
+    text-shadow: .1rem 0 .4rem #797777;
+}
+
+.bg-gradient-1 {
+    background: #94b8c8;
+    background: linear-gradient(90deg, #c19bc5 25%, #e0d0bb 72%);
+}
+
+.bg-gradient-2 {
+    background: #94e6f1;
+    background: linear-gradient(90deg, #a6a5a7 25%, #dadada 72%);
+}
+
+.bg-gradient-3 {
+    background: #94e6f1;
+    background: linear-gradient(90deg, #a27fc5 25%, #83c0b3 72%);
+}
+
+/* ==== style stay-focused-on start === */
 .stay-focused-on-h1 {
     color: #3a3939;
     font-family: Yeseva One;
     font-size: 6rem;
     font-weight: 700;
     line-height: 7rem;
-    border-left: 1rem solid #e05024e5;
+    border-left: 1rem solid #FF5959;
     letter-spacing: .1rem;
+    padding-left: 2.6rem;
+
 }
 
 .focoused-on-peraghrap {
     padding-top: 2.5rem;
     text-align: justify;
     line-height: 2.2rem;
+    margin-bottom: 3rem;
 }
+
+.contact-me {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    padding: 1.4rem 3.3rem;
+    background: #FF5959;
+    background: linear-gradient(90deg, #c237d1 25%, #FF5959 72%);
+    color: #ffffff;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+}
+
+.focused-scroll-down {
+    margin-top: 3rem;
+}
+
+.focused-on-img {
+    width: 60%;
+    margin-left: 5rem;
+}
+
+/* ==== style mission-vission-golas start === */
+.my-mission-area {
+    width: 100%;
+    margin-top: 7rem;
+
+}
+
+.my-mission {
+    color: #0c225d;
+    font-family: 'Lato', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.mission-2022-outer {
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 2rem 8rem;
+    margin-top: 3rem;
+}
+
+.mission-2022 {
+    width: 33%;
+    padding: 2rem 5rem;
+    margin-right: 2.4rem;
+    border: .1rem solid #fad7b3;
+    border-radius: 1.5rem;
+}
+
+.illstrators {
+    width: 70%;
+}
+
+.mission-vision-golas-h3 {
+    text-align: left;
+    padding-top: 2.5rem;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* ====style unlimited devolopement start==== */
