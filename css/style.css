@@ -247,3 +247,53 @@ li {
 .documentation_button {
     margin-left: 6rem;
 }
+
+/* ===Projects-global community=== */
+.container-global-projects {
+    width: 100%;
+    display: flex;
+    padding: 2rem 8rem;
+    padding-top: 7rem;
+}
+
+.global-project-comminiuty-2022 {
+    width: 33%;
+    margin-top: 9rem;
+    /* margin-right: 20rem; */
+}
+
+.globalproject--img-2022 {
+    width: 33%;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.middle-shape-hidden {
+    width: 33%;
+    padding: 0 2rem;
+    opacity: 0.1;
+
+}
+
+.middle-shape-hidden img {
+    width: 90%
+}
+
+.globalproject--img-2022 img {
+    width: 100%;
+}
+
+.golbal-projecet-h1 {
+    font-family: sans-serif;
+    font-size: 4.8rem;
+    font-weight: bold;
+
+
+}
+
+.programming-hero-1 {
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2.8rem;
+}
