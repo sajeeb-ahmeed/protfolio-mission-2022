@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* ======== */
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4.1rem;
+
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container_wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.section_wrapper {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float: left;
+}
+
+.color1 {
+    color: #e05024e5;
+}
+
+.color2 {
+    color: #ae30e9e7;
+}
+
+.color3 {
+    color: #00c3ff;
+}
+
+/* ====== */
+.stay-focused-on-h1 {
+    color: #3a3939;
+    font-family: Yeseva One;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7rem;
+    border-left: .4rem solid #e05024e5;
+    margin-left: 2rem;
+
+}
