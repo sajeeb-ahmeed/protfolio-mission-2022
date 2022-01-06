@@ -4,16 +4,10 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;1,400&family=Lato:wght@400;700;900&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Exo+2:wght@400;500;600&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;1,400&family=Lato:wght@400;700;900&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Yeseva+One&display=swap');
 
 body {
-    font-family: sans-serif;
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Yeseva One', cursive;
-
+    background-color: #F5F5F5;
 }
 
 /* ==== BoILer CSS ==== */
@@ -42,14 +36,14 @@ h4 {
 }
 
 p {
-    font-size: 1.8rem;
-    font-family: 'Yeseva One', cursive;
-
+    font-size: 1.7rem;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 
@@ -70,8 +64,8 @@ li {
     display: flex;
     height: auto;
     padding: 1rem;
-    margin-top: 7rem;
     padding: 5rem;
+    padding-top: 8rem;
 }
 
 .section_wrapper {
@@ -100,7 +94,7 @@ li {
 }
 
 .color4 {
-    color: rgb(207, 204, 191);
+    color: #cfccbf;
 }
 
 .shawos-3 {
@@ -152,8 +146,19 @@ li {
     background: #FF5959;
     background: linear-gradient(90deg, #c237d1 25%, #FF5959 72%);
     color: #ffffff;
+    font-weight: 700;
     letter-spacing: .1rem;
     border-radius: 1rem;
+}
+
+.button:hover {
+    padding: 1.8rem 3.3rem;
+    background: #ec8028;
+    background: linear-gradient(90deg, #ff8e6b 25%, #e18ef6 72%);
+    color: #3f3f3f;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    transition: all .5s ease;
 }
 
 .focused-scroll-down {
@@ -173,13 +178,11 @@ li {
 .my-mission-area {
     width: 100%;
     margin-top: 7rem;
-
 }
 
 .my-mission {
-    color: #0c225d;
+    color: #091941;
     font-family: 'Lato', sans-serif;
-    font-size: 4.5rem;
     font-weight: 900;
 }
 
@@ -197,16 +200,19 @@ li {
     margin-right: 2.4rem;
     border: .1rem solid #fad7b3;
     border-radius: 1.5rem;
+    box-shadow: .5rem .5rem .5rem 0 #353535e5;
+    -webkit-box-shadow: 1rem 1rem .5rem 0 #474747fa;
+    -moz-box-shadow: 1rem 1rem .5rem 0 #5c5a5abf;
 }
 
 .illstrators {
-    width: 70%;
+    width: 40%;
 }
 
 .mission-vision-golas-h3 {
     text-align: left;
     padding-top: 2.5rem;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 2.4rem;
 }
 
@@ -234,7 +240,6 @@ li {
 
 .development-2022-dwl h1 {
     font-family: sans-serif;
-    font-size: 6rem;
     font-weight: bold;
     margin-top: 8rem;
     margin-left: 6rem;
@@ -279,7 +284,6 @@ li {
 
 .golbal-projecet-h1 {
     font-family: sans-serif;
-    font-size: 6rem;
     font-weight: bold;
 }
 
@@ -288,6 +292,7 @@ li {
     font-family: sans-serif;
     letter-spacing: .1rem;
     line-height: 2.8rem;
+    padding-bottom: 5rem;
 }
 
 /* ===Application  Section Style=== */
@@ -298,8 +303,7 @@ li {
 
 .h1-router-app {
     font-family: sans-serif;
-    font-size: 6.2rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .cebac-app {
@@ -311,10 +315,10 @@ li {
 
 .cebacbd-app-img {
     width: 40%;
-    background-image: url(../images/shapes/shape-2.png);
+    background-image: url(../images/shapes/shape-9.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
+    background-size: cover;
+    opacity: 2;
     margin: 6rem;
 
 }
@@ -322,6 +326,7 @@ li {
 .cebacbd-app-img img {
     width: 62%;
     margin-left: 17rem;
+
 }
 
 .cebacbd-success {
@@ -331,8 +336,7 @@ li {
 
 .cebacbd-success h1 {
     font-family: sans-serif;
-    font-size: 5.4rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .cebacbd-peraghraph {
@@ -340,17 +344,17 @@ li {
     font-family: sans-serif;
     letter-spacing: .1rem;
     line-height: 2.8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
 }
 
 /* === footer=== */
 #footer {
-    /* position: fixed; */
-    /* left: 0;
+    /* position: fixed; 
+     left: 0;
     bottom: 0; */
     width: 100%;
     height: 10rem;
-    background-color: #051042;
+    background-color: #191c29;
     color: white;
     text-align: center;
 
